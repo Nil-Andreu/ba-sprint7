@@ -4,7 +4,7 @@ import styled from "styled-components";
 // What will render is the text, which is passed as a prop
 function Escena(props) {
   return (
-    <Container>
+    <Container className={props.class}>
       <Paragraph>{props.text}</Paragraph>
     </Container>
   );
@@ -12,8 +12,8 @@ function Escena(props) {
 
 const Container = styled.div`
   width: 90vw;
-  border: solid 1px black;
-  border-radius: 20px;
+  border: solid 2px black;
+  border-radius: 50px;
   text-align: center;
   margin: 30px auto;
 `;
