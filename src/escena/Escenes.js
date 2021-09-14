@@ -4,6 +4,8 @@ import Escena from "./Escena";
 import * as data from "../escenes.json";
 import "../styles.css";
 
+// Note we pass the passer function as an arrow function, this way it will only be executed when is on click and we do not create an infinite loop
+// (as the value () would make to be executed when is rendered)
 function Escenes() {
   const [state, setState] = useState(0);
 
