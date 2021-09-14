@@ -13,7 +13,7 @@ function Escena(props) {
 const Container = styled.div`
   width: 90vw;
   border: solid 1px black;
-  border-radius: 50%;
+  border-radius: 20px;
   text-align: center;
   margin: 30px auto;
 `;
