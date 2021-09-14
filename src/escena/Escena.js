@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import "../styles.css";
 
 // What will render is the text, which is passed as a prop
 function Escena(props) {
