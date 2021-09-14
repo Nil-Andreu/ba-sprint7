@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Escena from "./escena/Escena";
 import * as data from "./escenes.json";
 
+// What we will do is pass as props the data from the jso
 function App() {
   return (
     <Fragment>
